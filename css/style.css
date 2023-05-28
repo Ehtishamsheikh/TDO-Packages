@@ -1688,3 +1688,8 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 #socialicon{
   max-width: 7%!important;
 }
+
+
+#planeicon{
+  margin-right:8px;
+}
