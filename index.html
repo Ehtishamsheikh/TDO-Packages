@@ -68,7 +68,7 @@
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a
-                class="nav-link nav-text active"
+                class="nav-link nav-text"
                 aria-current="page"
                 href="index.html"
                 >HOME</a
@@ -559,9 +559,7 @@
         </div>
       </div>
     </section>
-
-<!-- video Source Section -->
-
+<!-- videro Source Section -->
     <section class="py-5">
       <div class="container">
         <div class="row justify-content-between align-items-center">
@@ -914,7 +912,7 @@
           endDate: defaultDateRange[1],
 
           locale: {
-            format: "MM-DD",
+            format: "MMM-DD",
             separator: " - ",
             applyLabel: "Apply",
             cancelLabel: "Cancel",
@@ -940,8 +938,8 @@
         dateRangeInput.daterangepicker(options);
 
         dateRangeInput.on("apply.daterangepicker", function (ev, picker) {
-          var startDate = picker.startDate.format("MM-DD");
-          var endDate = picker.endDate.format("MM-DD");
+          var startDate = picker.startDate.format("MMM-DD");
+          var endDate = picker.endDate.format("MMM-DD");
           console.log("Selected date range:", startDate, "to", endDate);
         });
 

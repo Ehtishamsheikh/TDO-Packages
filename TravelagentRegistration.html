@@ -109,14 +109,13 @@
                             <div class="row g-3 p-3">
                                 <h2 class="text-center fst-italic fw-bold text-white">REGISTRATION FORM</h2>
                                 <div class="col-md-6">
-                                  <label for="inputEndUser" class="form-label text-white"><h6><b>End User</b></h6></label>
-                                  <input type="radio"onchange="window.location.replace('register.html')" checked="checked">
+                                    <label for="inputEndUser" class="form-label text-white"><h6><b>End User</b></h6></label>
+                                    <input type="radio"onchange="window.location.replace('register.html')">
+                                </div>
+                                <div class="col-md-6">
+                                  <label for="inputTravelAgent" class="form-label text-white"><h6><b> Travel Agent</b></h6></label>
+                                  <input type="radio"onchange="window.location.replace('TravelagentRegistration.html')" checked="checked">
                               </div>
-                              <div class="col-md-6">
-                                <label for="inputTravelAgent" class="form-label text-white"><h6><b>Travel Agent</b></h6></label>
-                                <input type="radio" onchange="window.location.replace('TravelagentRegistration.html')">
-                            </div>
-                              
                                 <div class="col-md-6">
                                     <label for="inputUname" class="form-label text-white">User Name</label>
                                     <input type="text" class="form-control" id="inputFname" required />
@@ -124,6 +123,22 @@
                                 <div class="col-md-6">
                                     <label for="inputEmail" class="form-label text-white">Your Email</label>
                                     <input type="email" class="form-control" id="inputEmail" required />
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputTAgencyname" class="form-label text-white">Agency Name</label>
+                                    <input type="text" class="form-control" id="inputFname" required />
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputTagencyemail" class="form-label text-white">Agency Email</label>
+                                    <input type="email" class="form-control" id="inputEmail" required />
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputCountryname" class="form-label text-white">Country</label>
+                                    <input type="text" class="form-control" id="inputFname" required />
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputCityname" class="form-label text-white">City</label>
+                                    <input type="text" class="form-control" id="inputFname" required />
                                 </div>
                                 <div class="col-md-12">
                                     <label for="inputpassword" class="form-label text-white">Password</label>
@@ -158,5 +173,6 @@
                 </div>
             </div>
         </div>
+
     </body>
 </html>
