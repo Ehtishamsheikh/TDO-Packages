@@ -9,6 +9,7 @@ body {
   background: #ffffff;
   overflow-x: hidden;
   font-size: 14px;
+  margin: 0px;
 }
 
 .bg-primary {
@@ -31,7 +32,7 @@ body {
   color: #000000;
 }
 .nav-link:hover{
-  color: rgb(57, 153, 57) !important;
+  color: rgb(29, 27, 27) !important;
 }
 .navbar-nav li{
   margin-left: 10px;
@@ -1692,4 +1693,166 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 
 #planeicon{
   margin-right:8px;
+}
+
+
+
+/*==========================Excurtion============================*/
+.messagealert,.pop{
+  padding-left: 2%;
+}
+.slide{
+  padding-left: 2%;
+}
+.carousel-inner{
+  border-radius: 15px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column img {
+  max-width: 150px; /* Adjust the size as needed */
+  margin-bottom: 10px; /* Add spacing between images */
+  border-radius: 8%;
+  position: relative;
+  cursor:pointer ;
+  transition: filter 0.3s ease-in-out;
+}
+.column img:hover{
+  filter: brightness(150%);
+}
+.form-container {
+  background-color: rgb(241, 241, 241);
+  padding: 20px;
+}
+.form-container form{
+  background-color: rgb(241, 241, 241);
+
+}
+.form-container form input{
+  border-radius: 10px;
+}
+.form-container .date{
+  border-radius: 10px;
+}
+#overviewspace{
+  margin-left:37px ;
+}
+.form-container form button{
+
+padding-left: 117px;
+padding-right: 100px;
+}
+.form-container form .btn-success{
+background-color: rgb(67, 114, 67);
+border-color:  rgb(67, 114, 67);
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 100px;
+padding-right: 90px;
+border-radius: 5px;
+font-size: 14px;
+}
+#bookCall .btn-primary{
+  background-color: rgb(67, 114, 67);
+  border-color:  rgb(67, 114, 67);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 100px;
+  padding-right: 90px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+#bookCall .btn-primary:hover{
+  background-color: rgb(39, 65, 39);
+    }
+  .form-container form .btn-success:hover{
+    background-color: rgb(39, 65, 39);
+      }
+.form-container p{
+  cursor: pointer;
+}
+
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:white;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color:black;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: grey;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: white;
+  color: black;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color:white;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+
+.icon-text-container {
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon-text {
+  margin-left: 10px; /* Adjust the spacing between icon and text as needed */
+}
+.icon-text-container i{
+  margin-left: 10px;
+}
+#cross{
+  margin-left: 109px;
+}
+#check{
+  margin-left: 0px;
+}
+.ticks{
+  cursor: pointer;
 }
