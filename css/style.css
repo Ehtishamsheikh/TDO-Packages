@@ -1737,9 +1737,7 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 .form-container .date{
   border-radius: 10px;
 }
-#overviewspace{
-  margin-left:37px ;
-}
+
 .form-container form button{
 
 padding-left: 117px;
@@ -1779,7 +1777,7 @@ font-size: 14px;
 /* Fixed sidenav, full height */
 .sidenav {
   height: 100%;
-  width: 300px;
+  width: 258px;
   position: relative;
   z-index: 1;
   top: 0;
